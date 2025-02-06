@@ -6,7 +6,7 @@
 
 import { createClient } from 'next-sanity'
 
-import { apiVersion, dataset, projectId } from '../app/okpk'
+import { apiVersion, dataset, projectId } from '../../sanity/env'
 
 export const sanityClient1  = createClient({
   projectId,
