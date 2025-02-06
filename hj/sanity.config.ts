@@ -31,7 +31,7 @@ function assertValue<T>(v: T | undefined, errorMessage: string): T {
 }
 
 import {schema} from './index'
-import {structure} from './src/sanity/structure'
+import {structure} from './structure'
 
 export default defineConfig({
   basePath: '/studio',
