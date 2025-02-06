@@ -30,7 +30,7 @@ function assertValue<T>(v: T | undefined, errorMessage: string): T {
   return v
 }
 
-import {schema} from './src/sanity/schemaTypes'
+import {schema} from './src/sanity/schemaTypes/index'
 import {structure} from './src/sanity/structure'
 
 export default defineConfig({
